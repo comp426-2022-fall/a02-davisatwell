@@ -1,0 +1,35 @@
+{
+  "name": "a02-davisatwell",
+  "version": "0.0.1",
+  "description": "This package contains a weather tracker.",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "help": "node cli.js -h",
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-davisatwell.git"
+  },
+  "keywords": [
+      "json",
+      "weather",
+      "tracker",
+      "open-meteo"
+    ],
+  "author": "davisatwell",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-davisatwell/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-davisatwell#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.38",
+    "node-fetch": "^3.2.10"
+  }
+}
